@@ -1,0 +1,9 @@
+[package]
+name = "proof-of-proof-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pico-sdk = { git = "https://github.com/brevis-network/pico" }
+FRIVeil = { path = "../../" }
+proof-core = { path = "../../proof_of_proof/core" }

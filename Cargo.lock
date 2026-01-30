@@ -6,6 +6,7 @@ version = 4
 name = "FRIVeil"
 version = "0.1.0"
 dependencies = [
+ "bincode",
  "binius-field",
  "binius-math",
  "binius-prover",
